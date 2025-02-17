@@ -4,7 +4,6 @@ Hey there!
 
 I’m Joshua, also known as JhayTechPro, and I’m excited to share my Avengers-themed website with you!
 
-<<<<<<< HEAD
 This project is something I put together to test my skills in HTML and a little bit of CSS styling, and I’m super
 excited to share it with you.
 
@@ -25,7 +24,6 @@ Want to check it out?
 
 All you need to do is open the index.html file in your browser, and boom—you’re in!
 
-<<<<<<< HEAD
 This project is just for fun and educational purposes, but I’d love to hear your feedback or ideas to make it even
 better!
 Enjoy!
