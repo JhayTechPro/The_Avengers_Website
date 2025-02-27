@@ -1,0 +1,1339 @@
+/* full body styling */
+body {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    background: crimson; 
+    z-index: 1;
+    text-align: center;
+}
+
+header .logo {
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    top: -33px;
+    max-width: 100%;
+    height: auto;
+}
+
+header:hover {
+   background: #03055b;
+}
+
+nav {
+    width: 100%;
+    background: #ccc; 
+    z-index: 2;
+    padding: 10px 0;
+    margin: 0;
+    top: 150px;
+    position: fixed;
+    text-align: center;
+}
+
+#nav, li, a{
+    color: #be3c09;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#sub-header {
+    padding-top: 250px;
+    margin: 0;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sub-header img {
+    width: 100%;
+    position: relative;
+}
+
+#hawkeye, #hulk, #hercules{
+    width: 220px;
+}
+        
+ #black-widow, #black-panther, #green-lantern, #captain-america, #thor, #vision,  #iron-man, #scarlet-witch,  #captain-marvel, #quicksilver, #doctor-strange{
+    width: 220px;
+}
+
+#product-of-the-week h2{
+    color: black;
+text-align: center;
+text-transform: uppercase;
+}
+
+#product-of-the-week div{
+    color: crimson;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+}
+
+#avengers-suggestions h2{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#avengers-suggestions div{
+    color: crimson;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+
+#made-for-avenger-fans h2{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#made-for-avenger-fans div{
+    color: crimson;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+
+#customers-choice h2{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#customers-choice div{
+    color: crimson;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+
+article{
+    font-family: arial;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    word-wrap: none;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    border: solid 5px #ccc;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+}
+
+footer{
+   background-color: wheat;
+   box-sizing: border-box;
+   text-align: center;
+   padding-bottom: 5px;
+   padding-top: auto;
+}
+
+.footer-logo{
+    max-width: 100%;
+    height: auto;
+}
+
+footer #submit{
+    width: 220px;
+    height: 28px;
+    font-size: large;
+    text-transform: capitalize;
+    color: wheat;
+    background-color: crimson;
+}
+
+
+form input{
+    text-align: center;
+    font-size: large;
+}
+
+form label{
+    display: none;
+}
+
+footer a{
+    background-color: crimson;
+    color: white;
+    border: 2px solid black;
+    position: relative;
+    top: -7px;
+}
+/* end of index.html */
+
+/* shop_avengers.html */
+#s-header,#a-header,#c-header{
+    position: relative;
+}
+
+#s-header h2{
+    color: black;
+    border: 8px solid wheat;
+    padding: 4px 12px;
+    display: inline-block;
+    border-radius: 36px;
+    background-color: crimson;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* about_us.html */
+#a-header h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    background-color: crimson; 
+    padding: 4px 12px;
+    border: 8px solid wheat;
+    border-radius: 36px;
+    display: inline-block;
+    font-size: larger;
+}
+
+.info{
+    border-bottom: transparent;
+    border-top: transparent;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* contact.html */
+#c-header h2{
+    color: black;
+    border: 8px solid wheat;
+    padding: 4px 12px;
+    display: inline-block;
+    border-radius: 36px;
+    background-color: crimson;
+    text-transform: uppercase;
+
+}
+
+#contact-us-page h3, p{
+    text-align: center;
+    font-family: arial;
+}
+
+/* pseudo */
+nav li a:hover{
+    color: #03055b;
+}
+
+nav li a:visited{
+    color: #3E8e41;
+}
+
+footer a:hover{
+    color: #03055b;
+    background-color: #ccc;
+}
+
+footer a:visited{
+   color: cadetblue;
+}
+
+footer #submit:valid{
+    color: whitesmoke;
+}
+
+footer #submit:hover{
+    color: crimson;
+    background-color: #ccc;
+}
+
+
+
+
+
+/* extra small device */
+
+@media (max-width:360px){
+  body{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+    
+section div{
+    overflow: hidden;
+}
+
+#logo{
+    width: 120px;
+}
+
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    background: crimson; 
+    z-index: 1;
+    text-align: center;
+    height: 200px;
+}
+
+#header .logo {
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+#sub-header{
+    position: relative;
+    top: 35px;
+}
+
+#sub-header h1{
+    font-size: medium;
+}
+
+section{
+    overflow: hidden;
+}
+
+#hawkeye, #hulk, #hercules{
+    max-width: 60%;
+     }
+        
+ #black-widow, #black-panther, #green-lantern, #captain-america, #thor, #vision,  #iron-man, #scarlet-witch,  #captain-marvel, #quicksilver{
+    max-width: 60%;
+    }
+
+#doctor-strange{
+    max-width: 100%;
+ }
+
+#vision, #hulk, #iron-man{
+    height: 145px;
+ }
+
+ #scarlet-witch, #captain-marvel, #quicksilver, #doctor-strange{
+    height: 130px;
+ }
+
+#product-of-the-week{
+    position: relative;
+    top: 10px;
+}
+
+#product-of-the-week div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+}
+
+#avengers-suggestions div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+}
+
+
+
+#made-for-avenger-fans h2{
+    font-size: medium;
+ }
+
+ #made-for-avenger-fans div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+ }
+ 
+  #customers-choice div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+ } 
+
+ #shop-all-avengers h2{
+    font-size: medium;
+}
+
+#b-top{
+    position: relative;
+    top: 4px;
+}
+
+
+}
+
+/* small device */
+@media (min-width: 361px) and (max-width: 480px) {
+ body{
+    font-size: 14px;
+ }
+ 
+ nav{
+    height: auto;
+ }
+ #sub-header{
+    position: relative;
+    top: 40px;
+ } 
+
+ #sub-header h1{
+    font-size: medium;
+    position: relative;
+    top: -30px;
+ }
+ 
+ #banner{
+    position: relative;
+    top: -10px;
+ }
+
+ section{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#product-of-the-week{
+    position: relative;
+    top: 10px;
+}
+
+ #spider-man, #ant-man{
+         width: 200px;
+    } 
+
+ #hawkeye, #hulk, #black-widow, #hercules{
+    width: 200px;
+ }
+
+#black-panther, #green-lantern, #captain-america, #thor, #vision,  #iron-man, #scarlet-witch,  #captain-marvel, #quicksilver, #doctor-strange{
+    width: 200px;
+} 
+
+#vision, #hulk, #iron-man{
+    height: 145px;
+ }
+
+ #scarlet-witch, #captain-marvel, #quicksilver, #doctor-strange{
+    height: 130px;
+ }
+
+#product-of-the-week div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+}
+
+#avengers-suggestions div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+}
+
+#made-for-avenger-fans div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+}
+
+#customers-choice div{
+    padding: 0;
+    position: relative;
+    margin-left: -80px;
+    display: block;
+    text-align: center;
+}
+
+#b-top{
+    position: relative;
+    top: 4px;
+}
+
+
+}
+
+/*  medium device */
+
+@media (min-width: 481px) {
+body{
+    font-size: medium;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#vision, #hulk, #iron-man{
+    height: 145px;
+ }
+
+ #scarlet-witch, #captain-marvel, #quicksilver, #doctor-strange{
+    height: 130px;
+ }
+
+#product-of-the-week{
+    text-align: center;
+}
+
+#product-of-the-week div{
+   position: relative;
+   left: -20px;
+   display: block;
+}
+
+#avengers-suggestions{
+    text-align: center;
+}
+
+#avengers-suggestions div{
+    position: relative;
+    left: 5px;
+    display: block;
+}
+
+#made-for-avenger-fans{
+    text-align: center;
+}
+
+#made-for-avenger-fans div{
+    position: relative;
+    left: 5px;
+    display: block;
+}
+
+#customers-choice{
+     text-align: center;
+}
+
+#customers-choice div{
+    position: relative;
+    left: 5px;
+    display: block;
+}
+
+
+#b-top{
+    position: relative;
+    top: 4px;
+}
+
+
+
+}
+
+
+/* extra medium device */
+@media (min-width: 570px) and (max-width: 650px){
+
+body{
+    font-size: medium;
+}
+
+section{
+    overflow: hidden;
+}
+
+#product-of-the-week div{
+    position: relative;
+    left: 10px;
+    margin-left: -30px;
+    display: inline-block;
+ }
+ 
+  #product-of-the-week .black-widow{
+     position: relative;
+     left: 50px;
+ }
+ 
+ #product-of-the-week .hercules{
+     position: relative;
+     left: -30px; 
+ }
+
+#avengers-suggestions div{
+    position: relative;
+    left: 10px;
+    margin-left: -30px;
+    display: inline-block;
+}
+
+#avengers-suggestions .black-panther{
+    position: relative;
+    left: -20px;
+}
+
+#avengers-suggestions .green-lantern{
+    position: relative;
+    left: 45px;
+}
+
+#avengers-suggestions .captain-america{
+    position: relative;
+    left: -20px;
+}
+
+#avengers-suggestions .thor{
+    position: relative;
+    left: 45px;
+}
+
+
+#made-for-avenger-fans div{
+    position: relative;
+    left: 10px;
+    margin-left: -30px;
+    display: inline-block;
+}
+
+
+#made-for-avenger-fans .hawkeye{
+    position: relative;
+    left: -20px;
+}
+
+
+#made-for-avenger-fans .hulk{
+    position: relative;
+    left: 45px;
+}
+
+#made-for-avenger-fans .vision{
+    position: relative;
+    left: -20px;
+}
+
+#made-for-avenger-fans .iron-man{
+    position: relative;
+    left: 45px;
+}
+
+#customers-choice div{
+    position: relative;
+    left: 10px;
+    margin-left: -30px;
+    display: inline-block;
+} 
+
+
+#customers-choice .scarlet-witch{
+    position: relative;
+    left: -20px;
+}
+
+
+#customers-choice .captain-marvel{
+    position: relative;
+    left: 45px;
+}
+
+#customers-choice .quicksilver{
+    position: relative;
+    left: -20px;
+}
+
+
+#customers-choice .doctor-strange{
+    position: relative;
+    left: 45px;
+}
+
+
+#b-top{
+    position: relative;
+    top: 4px;
+}
+
+
+}
+
+/* large devices/ small tablets */
+ @media (min-width: 651px) and (max-width:836px) {
+ body{
+    font-size: larger;
+ }  
+
+ #spider-man, #ant-man{
+    max-width: 100%;
+}
+
+
+
+#hawkeye, #hulk, #hercules{
+    max-width: 100%;
+}
+   
+#black-widow, #black-panther, #green-lantern, #captain-america, #thor, #vision,  #iron-man, #scarlet-witch,  #captain-marvel, #quicksilver, #doctor-strange{
+    max-width: 100%;
+}
+
+#vision, #hulk, #iron-man{
+    height: 145px;
+ }
+
+ #scarlet-witch, #captain-marvel, #quicksilver, #doctor-strange{
+    height: 130px;
+ }
+
+#product-of-the-week{
+    position: relative;
+    left: -20px;
+}
+
+#product-of-the-week div{
+    position: relative;
+    left: 10px;
+    margin-left: -30px;
+    display: inline-block;
+    padding: 20px;
+ }
+ 
+  #product-of-the-week .black-widow{
+     position: relative;
+     left: 50px;
+ }
+ 
+ #product-of-the-week .hercules{
+     position: relative;
+     left: -30px; 
+ }
+
+#avengers-suggestions{
+    position: relative;
+    left: -20px;
+}
+
+
+
+#avengers-suggestions div{
+    position: relative;
+    left: 10px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+ #avengers-suggestions .black-panther{
+    position: relative;
+    left: -20px;
+}
+
+#avengers-suggestions .green-lantern{
+    position: relative;
+    left: 45px;
+}
+
+#avengers-suggestions .captain-america{
+    position: relative;
+    left: -20px;
+}
+
+#avengers-suggestions .thor{
+    position: relative;
+    left: 45px;
+}
+
+#made-for-avenger-fans{
+    position: relative;
+    left: -20px;
+}
+
+
+#made-for-avenger-fans div{
+    position: relative;
+    left: 10px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+#made-for-avenger-fans .hawkeye{
+    position: relative;
+    left: -20px;
+}
+
+
+#made-for-avenger-fans .hulk{
+    position: relative;
+    left: 45px;
+}
+
+#made-for-avenger-fans .vision{
+    position: relative;
+    left: -20px;
+}
+
+#made-for-avenger-fans .iron-man{
+    position: relative;
+    left: 45px;
+}
+
+
+#customers-choice{
+    position: relative;
+    left: -20px;
+}
+
+#customers-choice div{
+    margin-left: 30px;
+    display: inline-block;
+} 
+
+
+#customers-choice .scarlet-witch{
+    position: relative;
+    left: -20px;
+}
+
+
+#customers-choice .captain-marvel{
+    position: relative;
+    left: 45px;
+}
+
+#customers-choice .quicksilver{
+    position: relative;
+    left: -20px;
+}
+
+
+#customers-choice .doctor-strange{
+    position: relative;
+    left: 45px;
+}
+
+
+}
+
+
+/* small laptops */
+ @media (min-width: 837px) and (max-width: 1024px){
+    
+body{
+font-size: larger;
+}  
+
+#hawkeye, #hulk, #hercules{
+    width: 300px;
+     }
+        
+ #black-widow, #black-panther, #green-lantern, #captain-america, #thor, #vision,  #iron-man, #scarlet-witch,  #captain-marvel, #quicksilver, #doctor-strange{
+    width: 300px;
+    }
+
+#vision, #hulk, #iron-man{
+    height: 145px;
+    }
+
+    #scarlet-witch, #captain-marvel, #quicksilver, #doctor-strange{
+    height: 130px;
+    }
+
+#product-of-the-week{
+position: relative;
+left: -20px;
+}
+
+#product-of-the-week div{
+position: relative;
+left: 10px;
+margin-left: 40px;
+display: inline-block;
+}
+
+#product-of-the-week .black-widow{
+    position: relative;
+    left: 50px;
+}
+
+#product-of-the-week .hercules{
+    position: relative;
+    left: -30px; 
+}
+
+#avengers-suggestions{
+position: relative;
+left: -20px;
+}
+
+
+
+#avengers-suggestions div{
+position: relative;
+left: 10px;
+margin-left: 30px;
+display: inline-block;
+}
+
+#avengers-suggestions .black-panther{
+position: relative;
+left: -20px;
+}
+
+#avengers-suggestions .green-lantern{
+position: relative;
+left: 45px;
+}
+
+#avengers-suggestions .captain-america{
+position: relative;
+left: -20px;
+}
+
+#avengers-suggestions .thor{
+position: relative;
+left: 45px;
+}
+
+#made-for-avenger-fans{
+position: relative;
+left: -20px;
+}
+
+
+#made-for-avenger-fans div{
+position: relative;
+left: 10px;
+margin-left: 30px;
+display: inline-block;
+}
+
+
+#made-for-avenger-fans .hawkeye{
+position: relative;
+left: -20px;
+}
+
+
+#made-for-avenger-fans .hulk{
+position: relative;
+left: 45px;
+}
+
+#made-for-avenger-fans .vision{
+position: relative;
+left: -20px;
+}
+
+#made-for-avenger-fans .iron-man{
+position: relative;
+left: 45px;
+}
+
+
+#customers-choice{
+position: relative;
+left: -20px;
+}
+
+#customers-choice div{
+margin-left: 30px;
+display: inline-block;
+} 
+
+
+#customers-choice .scarlet-witch{
+position: relative;
+left: -20px;
+}
+
+
+#customers-choice .captain-marvel{
+position: relative;
+left: 45px;
+}
+
+#customers-choice .quicksilver{
+position: relative;
+left: -20px;
+}
+
+
+#customers-choice .doctor-strange{
+position: relative;
+left: 45px;
+}
+}
+
+/* medium to  large laptops */
+ @media (min-width: 1025px) and (max-width: 1440px){
+
+body{
+font-size: larger;
+}  
+
+#hawkeye, #hulk, #hercules{
+    width: 220px;
+        }
+        
+    #black-widow, #black-panther, #green-lantern, #captain-america, #thor, #vision,  #iron-man, #scarlet-witch,  #captain-marvel, #quicksilver, #doctor-strange{
+    width: 220px;
+    }
+
+ #vision, #hulk, #iron-man{
+    height: 145px;
+ }
+
+ #scarlet-witch, #captain-marvel, #quicksilver, #doctor-strange{
+    height: 130px;
+ }
+
+#product-of-the-week{
+position: relative;
+left: -20px;
+}
+
+#product-of-the-week div{
+position: relative;
+left: 10px;
+margin-left: -70px;
+display: inline-block;
+padding: 5px;
+}
+
+#product-of-the-week .spider-man{
+    position: relative;
+    left: -60px;
+}
+
+#product-of-the-week .ant-man{
+    position: relative;
+    left: -60px;
+}
+
+#product-of-the-week .hercules{
+    position: relative;
+    left: -5px; 
+}
+
+#product-of-the-week .black-widow{
+    position: relative;
+    left: 120px;
+}
+
+#avengers-suggestions{
+position: relative;
+left: -20px;
+}
+
+
+
+#avengers-suggestions div{
+position: relative;
+left: 10px;
+margin-left: -70px;
+display: inline-block;
+padding: 15px;
+}
+
+#avengers-suggestions .black-panther{
+position: relative;
+left: -50px;
+}
+
+#avengers-suggestions .green-lantern{
+position: relative;
+left: 20px;
+}
+
+ #avengers-suggestions .captain-america{
+position: relative;
+left: 90px;
+} 
+
+#avengers-suggestions .thor{
+position: relative;
+left: 160px;
+}
+
+#made-for-avenger-fans{
+position: relative;
+left: -20px;
+}
+
+
+#made-for-avenger-fans div{
+position: relative;
+left: 10px;
+margin-left: -70px;
+display: inline-block;
+padding: 15px;
+}
+
+
+#made-for-avenger-fans .hawkeye{
+    position: relative;
+    left: -50px;
+}
+
+
+#made-for-avenger-fans .hulk{
+    position: relative;
+    left: 20px;
+}
+
+#made-for-avenger-fans .vision{
+    position: relative;
+    left: 90px;
+}
+
+#made-for-avenger-fans .iron-man{
+    position: relative;
+    left: 160px;
+}
+
+
+#customers-choice{
+position: relative;
+left: -20px;
+}
+
+#customers-choice div{
+margin-left: -70px;
+display: inline-block;
+padding: 12px;
+} 
+
+
+#customers-choice .scarlet-witch{
+    position: relative;
+    left: -50px;
+}
+
+
+#customers-choice .captain-marvel{
+    position: relative;
+    left: 20px;
+}
+
+#customers-choice .quicksilver{
+    position: relative;
+    left: 90px;
+}
+
+
+#customers-choice .doctor-strange{
+    position: relative;
+    left: 160px;
+}
+    
+}
+
+
+/* large laptops */
+@media (min-width: 1441px){
+
+body{
+font-size: larger;
+}  
+
+#hawkeye, #hulk, #hercules{
+width: 220px;
+    }
+    
+#black-widow, #black-panther, #green-lantern, #captain-america, #thor, #vision,  #iron-man, #scarlet-witch,  #captain-marvel, #quicksilver, #doctor-strange{
+width: 220px;
+}
+
+#vision, #hulk, #iron-man{
+height: 145px;
+}
+
+#scarlet-witch, #captain-marvel, #quicksilver, #doctor-strange{
+height: 130px;
+}
+
+#product-of-the-week{
+position: relative;
+left: -20px;
+}
+
+#product-of-the-week div{
+position: relative;
+left: 10px;
+margin-left: -70px;
+display: inline-block;
+padding: 50px;
+}
+
+#product-of-the-week .spider-man{
+position: relative;
+left: -60px;
+}
+
+#product-of-the-week .ant-man{
+position: relative;
+left: -60px;
+}
+
+#product-of-the-week .hercules{
+position: relative;
+left: -5px; 
+}
+
+#product-of-the-week .black-widow{
+position: relative;
+left: 120px;
+}
+
+#avengers-suggestions{
+position: relative;
+left: -20px;
+}
+
+
+
+#avengers-suggestions div{
+position: relative;
+left: 10px;
+margin-left: -70px;
+display: inline-block;
+padding: 50px;
+}
+
+#avengers-suggestions .black-panther{
+position: relative;
+left: -50px;
+}
+
+#avengers-suggestions .green-lantern{
+position: relative;
+left: 20px;
+}
+
+#avengers-suggestions .captain-america{
+position: relative;
+left: 90px;
+} 
+
+#avengers-suggestions .thor{
+position: relative;
+left: 160px;
+}
+
+#made-for-avenger-fans{
+position: relative;
+left: -20px;
+}
+
+
+#made-for-avenger-fans div{
+position: relative;
+left: 10px;
+margin-left: -70px;
+display: inline-block;
+padding: 50px;
+}
+
+
+#made-for-avenger-fans .hawkeye{
+position: relative;
+left: -50px;
+}
+
+
+#made-for-avenger-fans .hulk{
+position: relative;
+left: 20px;
+}
+
+#made-for-avenger-fans .vision{
+position: relative;
+left: 90px;
+}
+
+#made-for-avenger-fans .iron-man{
+position: relative;
+left: 160px;
+}
+
+
+#customers-choice{
+position: relative;
+left: -20px;
+}
+
+#customers-choice div{
+margin-left: -70px;
+display: inline-block;
+padding: 50px;
+} 
+
+
+#customers-choice .scarlet-witch{
+position: relative;
+left: -50px;
+}
+
+
+#customers-choice .captain-marvel{
+position: relative;
+left: 20px;
+}
+
+#customers-choice .quicksilver{
+position: relative;
+left: 90px;
+}
+
+
+#customers-choice .doctor-strange{
+position: relative;
+left: 160px;
+}
+
+}
+
+
+
+     /* element to animate */
+.logo{
+    animation-name: drive;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+
+
+/* Keyframes */
+ @keyframes drive{
+    from{transform: translateX(0); }
+    to{transform: translateX(920px)}
+    }
